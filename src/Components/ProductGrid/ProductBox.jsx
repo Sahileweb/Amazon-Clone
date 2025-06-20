@@ -2,7 +2,7 @@
 import React from "react";
 
 
-const ProductBox = ({ id,title, image }) => {
+const ProductBox = ({ title, image }) => {
  
   return (
     <div className="bg-white p-4 rounded shadow-md hover:scale-105 transition-transform h-[400px] flex flex-col justify-between">
